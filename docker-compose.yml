@@ -18,7 +18,7 @@ services:
       ADMIN_PASSWORD: admin
     volumes:
       - ./config:/config
-      - /mnt/NAS/NAS/Audio/:/media:
+      - /mnt/NAS/NAS/Audio/:/media
       
   database:
     image: hypriot/rpi-mysql:latest
